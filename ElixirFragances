@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirigiendo a WhatsApp...</title>
+  <script>
+    const numeros = [
+      'https://wa.me/3516330675',
+      'https://wa.me/3517585978',
+      'https://wa.me/3517585979'
+    ];
+    const elegido = numeros[Math.floor(Math.random() * numeros.length)];
+    window.location.href = elegido;
+  </script>
+</head>
+<body>
+  <p>Redirigiendo...</p>
+</body>
+</html>
